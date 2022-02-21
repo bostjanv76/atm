@@ -150,21 +150,17 @@ public class ZnesekPoIzbiri extends javax.swing.JFrame {
        
        if(tmp-pz<0){
            jOptionPane1.showMessageDialog(null, "Na računu nimate dovolj denarja","Napaka",jOptionPane1.ERROR_MESSAGE);
+       }else{
+            tmp=tmp-pz;
+            jOptionPane1.showMessageDialog(null, "Na računu imate še "+tmp+"€","Obvestilo",jOptionPane1.INFORMATION_MESSAGE);
            
-       }
-       else{
-           tmp=tmp-pz;
-           jOptionPane1.showMessageDialog(null, "Na računu imate še "+tmp+"€","Obvestilo",jOptionPane1.INFORMATION_MESSAGE);
-           
-           
-           
-           while(br.ready()){
+            while(br.ready()){
             vrstica=br.readLine();
             tab=vrstica.split(" ");       //iz niza nam vsebino prenese v tabelo
-          if(Login.oseba.equals(tab[0])){
+            if(Login.oseba.equals(tab[0])){
                 Login.znesek=tmp;         //nujnuo moramo spremeniti znesek tudi na login formi ker se ta znesek ob kliku na gumb vedno prenese iz login forme
                 pw.println(tab[0]+" "+tab[1]+" "+tab[2]+" "+tab[3]+" "+tab[4]+" "+tab[5]+" "+tab[6]+" "+tab[7]+" "+tab[8]+" "+(tmp));                                       //zapiši vse +nov znesek 
-          }
+            }
           else{
              pw.println(vrstica); //zapiši vrstica
           }
@@ -176,8 +172,6 @@ public class ZnesekPoIzbiri extends javax.swing.JFrame {
        original.delete();
        new File("racuni_temp.txt").renameTo(original);
        
-       
-         
            Bankomat bm=new Bankomat();
            bm.setVisible(true);
            dispose();

@@ -341,7 +341,7 @@ public class Registracija extends javax.swing.JFrame {
                 kontrola=false;
             }
 
-                                //jOptionPane1.showMessageDialog(null, "Test"+br.readLine(),"Test",jOptionPane1.INFORMATION_MESSAGE);
+            //jOptionPane1.showMessageDialog(null, "Test"+br.readLine(),"Test",jOptionPane1.INFORMATION_MESSAGE);
            String tmp;                     
            while(br.ready()){ //preverimo ali up. ime že obstaja
                    tmp=br.readLine();
@@ -366,26 +366,25 @@ public class Registracija extends javax.swing.JFrame {
                     pin +=(int)(Math.random()*10);
 
                 jOptionPane1.showMessageDialog(null, "Vaša PIN koda je: "+pin+"\nZnesek je: "+x,"Informacija",jOptionPane1.INFORMATION_MESSAGE);
-            //znak za v novo vrstico(\n) uporabimo ker zelimo da je znesek zapisan v drugi vrstici
+                //znak za v novo vrstico(\n) uporabimo ker zelimo da je znesek zapisan v drugi vrstici
                 
-            //vpis v datoteko        
-            bw.write(uime+" ");
-            bw.write(pass1+" ");
-            bw.write(pin+" ");
-            bw.write(ime+" ");
-            bw.write(priimek+" ");
-            bw.write(telefon+" ");
-            bw.write(email+" ");
-            bw.write(davcna+" ");
-            bw.write(spol+" ");
-            bw.write(x+"");     //stevilo pretvorimo v niz ker bw ne omogoca vpisa stevil, alternativa bi bil printWriter
-            bw.newLine();       //ko zapišemo vse podatke skočimo v novo vrstico
+                //vpis v datoteko        
+                bw.write(uime+" ");
+                bw.write(pass1+" ");
+                bw.write(pin+" ");
+                bw.write(ime+" ");
+                bw.write(priimek+" ");
+                bw.write(telefon+" ");
+                bw.write(email+" ");
+                bw.write(davcna+" ");
+                bw.write(spol+" ");
+                bw.write(x+"");     //stevilo pretvorimo v niz ker bw ne omogoca vpisa stevil, alternativa bi bil printWriter
+                bw.newLine();       //ko zapišemo vse podatke skočimo v novo vrstico
             
-            
-            //odpri obrazec za prijavo
-            Login log=new Login();
-            log.setVisible(true);
-            dispose();    
+                //odpri obrazec za prijavo
+                Login log=new Login();
+                log.setVisible(true);
+                dispose();    
             }
             
             bw.close();

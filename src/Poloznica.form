@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JOptionPane" name="jOptionPane1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[750, 600]"/>
+    </Property>
+    <Property name="undecorated" type="boolean" value="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+    <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[750, 600]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,88,0,0,2,-18"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="panelPol">
+      <Properties>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[750, 600]"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[750, 600]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="znesek">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="9b" green="9b" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="330" width="170" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Naslov"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="350" y="110" width="40" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ibanPla">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="30" width="410" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="krajPla">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="180" width="260" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="namenPlacila">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="9b" green="9b" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="namenPlacilaActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="280" width="420" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="IBAN"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="10" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Naziv"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="110" width="40" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kraj"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="160" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Namen pla&#x10d;ila"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="260" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="naslovPre">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="9b" green="9b" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="360" y="470" width="360" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ref1Pre">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="9b" green="9b" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="420" width="90" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Referenca"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="400" width="60" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="nujno">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nujno"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="500" y="280" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Naziv"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="450" width="50" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="nazivPre">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="9b" green="9b" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="470" width="260" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ref2Pre">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="9b" green="9b" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="160" y="420" width="210" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="krajPre">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="9b" green="9b" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="520" width="260" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Naslov"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="360" y="450" width="70" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ibanPre">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="9b" green="9b" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="370" width="560" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="bic">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="500" y="330" width="190" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="Datum pla&#x10d;ila"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="290" y="310" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Referenca"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="60" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ref1Pla">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="80" width="110" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ref2Pla">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="180" y="80" width="170" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel13">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Znesek"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="310" width="60" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="nazivPla">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="130" width="260" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="naslovPla">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="350" y="130" width="340" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXDatePicker" name="datumPlacila">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="290" y="330" width="120" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel15">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Dr&#x17e;ava"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="350" y="160" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="drzavaPla">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="244">
+                <StringItem index="0" value="Afghanistan"/>
+                <StringItem index="1" value="&#xc5;land Islands"/>
+                <StringItem index="2" value="Albania"/>
+                <StringItem index="3" value="Algeria"/>
+                <StringItem index="4" value="American Samoa"/>
+                <StringItem index="5" value="Andorra"/>
+                <StringItem index="6" value="Angola"/>
+                <StringItem index="7" value="Anguilla"/>
+                <StringItem index="8" value="Antarctica"/>
+                <StringItem index="9" value="Antigua and Barbuda"/>
+                <StringItem index="10" value="Argentina"/>
+                <StringItem index="11" value="Armenia"/>
+                <StringItem index="12" value="Aruba"/>
+                <StringItem index="13" value="Australia"/>
+                <StringItem index="14" value="Austria"/>
+                <StringItem index="15" value="Azerbaijan"/>
+                <StringItem index="16" value="Bahamas"/>
+                <StringItem index="17" value="Bahrain"/>
+                <StringItem index="18" value="Bangladesh"/>
+                <StringItem index="19" value="Barbados"/>
+                <StringItem index="20" value="Belarus"/>
+                <StringItem index="21" value="Belgium"/>
+                <StringItem index="22" value="Belize"/>
+                <StringItem index="23" value="Benin"/>
+                <StringItem index="24" value="Bermuda"/>
+                <StringItem index="25" value="Bhutan"/>
+                <StringItem index="26" value="Bolivia, Plurinational State of"/>
+                <StringItem index="27" value="Bonaire, Sint Eustatius and Saba"/>
+                <StringItem index="28" value="Bosnia and Herzegovina"/>
+                <StringItem index="29" value="Botswana"/>
+                <StringItem index="30" value="Bouvet Island"/>
+                <StringItem index="31" value="Brazil"/>
+                <StringItem index="32" value="British Indian Ocean Territory"/>
+                <StringItem index="33" value="Brunei Darussalam"/>
+                <StringItem index="34" value="Bulgaria"/>
+                <StringItem index="35" value="Burkina Faso"/>
+                <StringItem index="36" value="Burundi"/>
+                <StringItem index="37" value="Cambodia"/>
+                <StringItem index="38" value="Cameroon"/>
+                <StringItem index="39" value="Canada"/>
+                <StringItem index="40" value="Cape Verde"/>
+                <StringItem index="41" value="Cayman Islands"/>
+                <StringItem index="42" value="Central African Republic"/>
+                <StringItem index="43" value="Chad"/>
+                <StringItem index="44" value="Chile"/>
+                <StringItem index="45" value="China"/>
+                <StringItem index="46" value="Christmas Island"/>
+                <StringItem index="47" value="Cocos (Keeling) Islands"/>
+                <StringItem index="48" value="Colombia"/>
+                <StringItem index="49" value="Comoros"/>
+                <StringItem index="50" value="Congo"/>
+                <StringItem index="51" value="Cook Islands"/>
+                <StringItem index="52" value="Costa Rica"/>
+                <StringItem index="53" value="C&#xf4;te d&apos;Ivoire"/>
+                <StringItem index="54" value="Croatia"/>
+                <StringItem index="55" value="Cuba"/>
+                <StringItem index="56" value="Cura&#xe7;ao"/>
+                <StringItem index="57" value="Cyprus"/>
+                <StringItem index="58" value="Czech Republic"/>
+                <StringItem index="59" value="Denmark"/>
+                <StringItem index="60" value="Djibouti"/>
+                <StringItem index="61" value="Dominica"/>
+                <StringItem index="62" value="Dominican Republic"/>
+                <StringItem index="63" value="Ecuador"/>
+                <StringItem index="64" value="Egypt"/>
+                <StringItem index="65" value="El Salvador"/>
+                <StringItem index="66" value="Equatorial Guinea"/>
+                <StringItem index="67" value="Eritrea"/>
+                <StringItem index="68" value="Estonia"/>
+                <StringItem index="69" value="Ethiopia"/>
+                <StringItem index="70" value="Falkland Islands (Malvinas)"/>
+                <StringItem index="71" value="Faroe Islands"/>
+                <StringItem index="72" value="Fiji"/>
+                <StringItem index="73" value="Finland"/>
+                <StringItem index="74" value="France"/>
+                <StringItem index="75" value="French Guiana"/>
+                <StringItem index="76" value="French Polynesia"/>
+                <StringItem index="77" value="French Southern Territories"/>
+                <StringItem index="78" value="Gabon"/>
+                <StringItem index="79" value="Gambia"/>
+                <StringItem index="80" value="Georgia"/>
+                <StringItem index="81" value="Germany"/>
+                <StringItem index="82" value="Ghana"/>
+                <StringItem index="83" value="Gibraltar"/>
+                <StringItem index="84" value="Greece"/>
+                <StringItem index="85" value="Greenland"/>
+                <StringItem index="86" value="Grenada"/>
+                <StringItem index="87" value="Guadeloupe"/>
+                <StringItem index="88" value="Guam"/>
+                <StringItem index="89" value="Guatemala"/>
+                <StringItem index="90" value="Guernsey"/>
+                <StringItem index="91" value="Guinea"/>
+                <StringItem index="92" value="Guinea-Bissau"/>
+                <StringItem index="93" value="Guyana"/>
+                <StringItem index="94" value="Haiti"/>
+                <StringItem index="95" value="Heard Island and McDonald Islands"/>
+                <StringItem index="96" value="Holy See (Vatican City State)"/>
+                <StringItem index="97" value="Honduras"/>
+                <StringItem index="98" value="Hong Kong"/>
+                <StringItem index="99" value="Hungary"/>
+                <StringItem index="100" value="Iceland"/>
+                <StringItem index="101" value="India"/>
+                <StringItem index="102" value="Indonesia"/>
+                <StringItem index="103" value="Iran, Islamic Republic of"/>
+                <StringItem index="104" value="Iraq"/>
+                <StringItem index="105" value="Ireland"/>
+                <StringItem index="106" value="Isle of Man"/>
+                <StringItem index="107" value="Israel"/>
+                <StringItem index="108" value="Italy"/>
+                <StringItem index="109" value="Jamaica"/>
+                <StringItem index="110" value="Japan"/>
+                <StringItem index="111" value="Jersey"/>
+                <StringItem index="112" value="Jordan"/>
+                <StringItem index="113" value="Kazakhstan"/>
+                <StringItem index="114" value="Kenya"/>
+                <StringItem index="115" value="Kiribati"/>
+                <StringItem index="116" value="Korea"/>
+                <StringItem index="117" value="Kuwait"/>
+                <StringItem index="118" value="Kyrgyzstan"/>
+                <StringItem index="119" value="Lao People&apos;s Democratic Republic"/>
+                <StringItem index="120" value="Latvia"/>
+                <StringItem index="121" value="Lebanon"/>
+                <StringItem index="122" value="Lesotho"/>
+                <StringItem index="123" value="Liberia"/>
+                <StringItem index="124" value="Libya"/>
+                <StringItem index="125" value="Liechtenstein"/>
+                <StringItem index="126" value="Lithuania"/>
+                <StringItem index="127" value="Luxembourg"/>
+                <StringItem index="128" value="Macao"/>
+                <StringItem index="129" value="Macedonia"/>
+                <StringItem index="130" value="Madagascar"/>
+                <StringItem index="131" value="Malawi"/>
+                <StringItem index="132" value="Malaysia"/>
+                <StringItem index="133" value="Maldives"/>
+                <StringItem index="134" value="Mali"/>
+                <StringItem index="135" value="Malta"/>
+                <StringItem index="136" value="Marshall Islands"/>
+                <StringItem index="137" value="Martinique"/>
+                <StringItem index="138" value="Mauritania"/>
+                <StringItem index="139" value="Mauritius"/>
+                <StringItem index="140" value="Mayotte"/>
+                <StringItem index="141" value="Mexico"/>
+                <StringItem index="142" value="Micronesia"/>
+                <StringItem index="143" value="Moldova"/>
+                <StringItem index="144" value="Monaco"/>
+                <StringItem index="145" value="Mongolia"/>
+                <StringItem index="146" value="Montenegro"/>
+                <StringItem index="147" value="Montserrat"/>
+                <StringItem index="148" value="Morocco"/>
+                <StringItem index="149" value="Mozambique"/>
+                <StringItem index="150" value="Myanmar"/>
+                <StringItem index="151" value="Namibia"/>
+                <StringItem index="152" value="Nauru"/>
+                <StringItem index="153" value="Nepal"/>
+                <StringItem index="154" value="Netherlands"/>
+                <StringItem index="155" value="New Caledonia"/>
+                <StringItem index="156" value="New Zealand"/>
+                <StringItem index="157" value="Nicaragua"/>
+                <StringItem index="158" value="Niger"/>
+                <StringItem index="159" value="Nigeria"/>
+                <StringItem index="160" value="Niue"/>
+                <StringItem index="161" value="Norfolk Island"/>
+                <StringItem index="162" value="Northern Mariana Islands"/>
+                <StringItem index="163" value="Norway"/>
+                <StringItem index="164" value="Oman"/>
+                <StringItem index="165" value="Pakistan"/>
+                <StringItem index="166" value="Palau"/>
+                <StringItem index="167" value="Palestinian Territory"/>
+                <StringItem index="168" value="Panama"/>
+                <StringItem index="169" value="Papua New Guinea"/>
+                <StringItem index="170" value="Paraguay"/>
+                <StringItem index="171" value="Peru"/>
+                <StringItem index="172" value="Philippines"/>
+                <StringItem index="173" value="Pitcairn"/>
+                <StringItem index="174" value="Poland"/>
+                <StringItem index="175" value="Portugal"/>
+                <StringItem index="176" value="Puerto Rico"/>
+                <StringItem index="177" value="Qatar"/>
+                <StringItem index="178" value="R&#xe9;union"/>
+                <StringItem index="179" value="Romania"/>
+                <StringItem index="180" value="Russian Federation"/>
+                <StringItem index="181" value="Rwanda"/>
+                <StringItem index="182" value="Saint Barth&#xe9;lemy"/>
+                <StringItem index="183" value="Saint Helena"/>
+                <StringItem index="184" value="Saint Kitts and Nevis"/>
+                <StringItem index="185" value="Saint Lucia"/>
+                <StringItem index="186" value="Saint Martin (French part)"/>
+                <StringItem index="187" value="Saint Pierre and Miquelon"/>
+                <StringItem index="188" value="Saint Vincent and the Grenadines"/>
+                <StringItem index="189" value="Samoa"/>
+                <StringItem index="190" value="San Marino"/>
+                <StringItem index="191" value="Sao Tome and Principe"/>
+                <StringItem index="192" value="Saudi Arabia"/>
+                <StringItem index="193" value="Senegal"/>
+                <StringItem index="194" value="Serbia"/>
+                <StringItem index="195" value="Seychelles"/>
+                <StringItem index="196" value="Sierra Leone"/>
+                <StringItem index="197" value="Singapore"/>
+                <StringItem index="198" value="Sint Maarten (Dutch part)"/>
+                <StringItem index="199" value="Slovakia"/>
+                <StringItem index="200" value="Slovenia"/>
+                <StringItem index="201" value="Solomon Islands"/>
+                <StringItem index="202" value="Somalia"/>
+                <StringItem index="203" value="South Africa"/>
+                <StringItem index="204" value="South Georgia and the South Sandwich Islands"/>
+                <StringItem index="205" value="South Sudan"/>
+                <StringItem index="206" value="Spain"/>
+                <StringItem index="207" value="Sri Lanka"/>
+                <StringItem index="208" value="Sudan"/>
+                <StringItem index="209" value="Suriname"/>
+                <StringItem index="210" value="Svalbard and Jan Mayen"/>
+                <StringItem index="211" value="Swaziland"/>
+                <StringItem index="212" value="Sweden"/>
+                <StringItem index="213" value="Switzerland"/>
+                <StringItem index="214" value="Syrian Arab Republic"/>
+                <StringItem index="215" value="Taiwan, Province of China"/>
+                <StringItem index="216" value="Tajikistan"/>
+                <StringItem index="217" value="Tanzania"/>
+                <StringItem index="218" value="Timor-Leste"/>
+                <StringItem index="219" value="Togo"/>
+                <StringItem index="220" value="Tokelau"/>
+                <StringItem index="221" value="Tonga"/>
+                <StringItem index="222" value="Trinidad and Tobago"/>
+                <StringItem index="223" value="Tunisia"/>
+                <StringItem index="224" value="Turkey"/>
+                <StringItem index="225" value="Turkmenistan"/>
+                <StringItem index="226" value="Turks and Caicos Islands"/>
+                <StringItem index="227" value="Tuvalu"/>
+                <StringItem index="228" value="Uganda"/>
+                <StringItem index="229" value="Ukraine"/>
+                <StringItem index="230" value="United Arab Emirates"/>
+                <StringItem index="231" value="United Kingdom"/>
+                <StringItem index="232" value="United States"/>
+                <StringItem index="233" value="United States Minor Outlying Islands"/>
+                <StringItem index="234" value="Uruguay"/>
+                <StringItem index="235" value="Uzbekistan"/>
+                <StringItem index="236" value="Vanuatu"/>
+                <StringItem index="237" value="Venezuela"/>
+                <StringItem index="238" value="Virgin Islands"/>
+                <StringItem index="239" value="Wallis and Futuna"/>
+                <StringItem index="240" value="Western Sahara"/>
+                <StringItem index="241" value="Yemen"/>
+                <StringItem index="242" value="Zambia"/>
+                <StringItem index="243" value="Zimbabwe"/>
+              </StringArray>
+            </Property>
+            <Property name="selectedIndex" type="int" value="200"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="350" y="180" width="340" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="kodaNamena">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="159">
+                <StringItem index="0" value="ACCT-Upravljanje denarnih sredstev - znotraj banke"/>
+                <StringItem index="1" value="ADVA-Pla&#x10d;ilo vnaprej / predpla&#x10d;ilo"/>
+                <StringItem index="2" value="ADMG-Administrativne storitve"/>
+                <StringItem index="3" value="AEMP-Aktivna politika zaposlovanja"/>
+                <StringItem index="4" value="AGRT-Pla&#x10d;ilo v kmetijstvu"/>
+                <StringItem index="5" value="AIRB-Zra&#x10d;ni prevoz"/>
+                <StringItem index="6" value="ALLW-Nadomestila"/>
+                <StringItem index="7" value="ALMY-Pre&#x17e;ivnina"/>
+                <StringItem index="8" value="ANNI-Pla&#x10d;ilo obroka kredita / zavarovanja"/>
+                <StringItem index="9" value="ANTS-Storitve anestezije"/>
+                <StringItem index="10" value="AREN-Vnos / vpis terjatev"/>
+                <StringItem index="11" value="BBSC-Spodbuda za rojstvo otroka"/>
+                <StringItem index="12" value="BECH-Otro&#x161;ki dodatek"/>
+                <StringItem index="13" value="BENE-Podpora za brezposelne / invalide"/>
+                <StringItem index="14" value="BEXP-Poslovni izdatki"/>
+                <StringItem index="15" value="BOCE-Vnos / vpis konverzije v zaledju"/>
+                <StringItem index="16" value="BONU-Bonus pla&#x10d;ilo"/>
+                <StringItem index="17" value="BLDM-Vzdr&#x17e;evanje zgradb"/>
+                <StringItem index="18" value="BUSB-Avtobusni transport"/>
+                <StringItem index="19" value="CAFI-Interna provizija za upravljanje skrbni&#x161;kega ra&#x10d;una"/>
+                <StringItem index="20" value="CASH-Upravljanje denarnih sredstev - med bankami"/>
+                <StringItem index="21" value="CBFF-Pokojninski skladi, var&#x10d;evanje"/>
+                <StringItem index="22" value="CBLK-Kliring sve&#x17e;nja kartic"/>
+                <StringItem index="23" value="CBTV-Ra&#x10d;un za kabelsko TV"/>
+                <StringItem index="24" value="CCRD-Pla&#x10d;ilo s kreditno kartico"/>
+                <StringItem index="25" value="CDBL-Pla&#x10d;ilo ra&#x10d;una za kreditno kartico"/>
+                <StringItem index="26" value="CDCB-Karti&#x10d;na pla&#x10d;ila z gotovinskim vra&#x10d;ilom"/>
+                <StringItem index="27" value="CDCD-Karti&#x10d;no izpla&#x10d;ilo"/>
+                <StringItem index="28" value="CDCS-Karti&#x10d;no izpla&#x10d;ilo z dodatnimi stro&#x161;ki"/>
+                <StringItem index="29" value="CDDP-Odlo&#x17e;eno pla&#x10d;ilo s kartico"/>
+                <StringItem index="30" value="CDOC-Originalna odobritev"/>
+                <StringItem index="31" value="CDQC-Navidezna gotovina"/>
+                <StringItem index="32" value="CFDI-Interno zmanj&#x161;anje osnovnega kapitala"/>
+                <StringItem index="33" value="CFEE-Stro&#x161;ki preklica"/>
+                <StringItem index="34" value="CHAR-Dobrodelno pla&#x10d;ilo"/>
+                <StringItem index="35" value="CLPR-Pla&#x10d;ilo avtomobilskega kredita"/>
+                <StringItem index="36" value="CMDT-Pla&#x10d;ilo blaga"/>
+                <StringItem index="37" value="COLL-Nalog za izvr&#x161;itev pla&#x10d;ila"/>
+                <StringItem index="38" value="COMC-Komercialno pla&#x10d;ilo"/>
+                <StringItem index="39" value="COMM-Pla&#x10d;ilo provizije"/>
+                <StringItem index="40" value="COMT-Konsolidirano pla&#x10d;ilo tretje stranke za potro&#x161;nika"/>
+                <StringItem index="41" value="COST-Stro&#x161;ki"/>
+                <StringItem index="42" value="CPCK-Parkirnina"/>
+                <StringItem index="43" value="CPYR-Avtorska pravica"/>
+                <StringItem index="44" value="CSDB-Denarno izpla&#x10d;ilo"/>
+                <StringItem index="45" value="CSLP-Pla&#x10d;ilo socialnega posojila banki"/>
+                <StringItem index="46" value="CVCF-Pripomo&#x10d;ki za okrevajo&#x10d;e"/>
+                <StringItem index="47" value="DBTC-Debetno pla&#x10d;ilo"/>
+                <StringItem index="48" value="DCRD-Pla&#x10d;ilo z debetno kartico"/>
+                <StringItem index="49" value="DEPT-Depozit"/>
+                <StringItem index="50" value="DERI-Derivativi"/>
+                <StringItem index="51" value="DIVD-Dividenda"/>
+                <StringItem index="52" value="DMEQ-Medicinska oprema"/>
+                <StringItem index="53" value="DNTS-Zobozdravstvene storitve"/>
+                <StringItem index="54" value="EDUC-Izobra&#x17e;evanje"/>
+                <StringItem index="55" value="ELEC-Ra&#x10d;un za elektriko"/>
+                <StringItem index="56" value="ENRG-Energetika"/>
+                <StringItem index="57" value="ESTX-Davek na nepremi&#x10d;nine"/>
+                <StringItem index="58" value="ETUP-E-denarnica"/>
+                <StringItem index="59" value="FAND-Finan&#x10d;na pomo&#x10d; dr&#x17e;avnih organov in lokalnih skupnosti za odpravo posledic naravnih nesre&#x10d;"/>
+                <StringItem index="60" value="FCPM-Zamudne obresti in stro&#x161;ki"/>
+                <StringItem index="61" value="FCOL-Provizija"/>
+                <StringItem index="62" value="FERB-Ladijski prevoz"/>
+                <StringItem index="63" value="FWLV-Dajatve za tuje delavce"/>
+                <StringItem index="64" value="FREX-Devizno poslovanje"/>
+                <StringItem index="65" value="GASB-Ra&#x10d;un za plin"/>
+                <StringItem index="66" value="GDDS-Kupoprodaja blaga"/>
+                <StringItem index="67" value="GDSV-Kupoprodaja blaga in storitev"/>
+                <StringItem index="68" value="GFRP-Pla&#x10d;ila iz naslova insolventnosti"/>
+                <StringItem index="69" value="GOVI-Dr&#x17e;avno zavarovanje"/>
+                <StringItem index="70" value="GOVT-Pla&#x10d;ilo v dobro / breme dr&#x17e;avnega organa"/>
+                <StringItem index="71" value="GSCB-Kupoprodaja blaga in storitev z gotovino"/>
+                <StringItem index="72" value="GSTX-Davek na blago in storitve"/>
+                <StringItem index="73" value="GVEA-Avstrijski vladni uslu&#x17e;benci kategorije A"/>
+                <StringItem index="74" value="GVEB-Avstrijski vladni uslu&#x17e;benci kategorije B"/>
+                <StringItem index="75" value="GVEC-Avstrijski vladni uslu&#x17e;benci kategorije C"/>
+                <StringItem index="76" value="GVED-Avstrijski vladni uslu&#x17e;benci kategorije D"/>
+                <StringItem index="77" value="GWLT-Nakazila po vojnih zakonih"/>
+                <StringItem index="78" value="HEDG-Za&#x161;&#x10d;ita pred tveganji"/>
+                <StringItem index="79" value="HLRP-Pla&#x10d;ilo stanovanjskega posojila"/>
+                <StringItem index="80" value="HLTC-Zdravstvena oskrba na domu"/>
+                <StringItem index="81" value="HLTI-Zdravstveno zavarovanje"/>
+                <StringItem index="82" value="HSPC-Bolni&#x161;ni&#x10d;na oskrba"/>
+                <StringItem index="83" value="HSTX-Stanovanjski davek"/>
+                <StringItem index="84" value="ICCP-Nepreklicno pla&#x10d;ilo s kreditno kartico"/>
+                <StringItem index="85" value="ICRF-Prva / nujna pomo&#x10d;"/>
+                <StringItem index="86" value="IDCP-Nepreklicno pla&#x10d;ilo z debetno kartico"/>
+                <StringItem index="87" value="IHRP-Pla&#x10d;ilo obroka najemnine / nakupa"/>
+                <StringItem index="88" value="INPC-Premija avtomobilskega zavarovanja"/>
+                <StringItem index="89" value="INSM-Pla&#x10d;ilo obroka"/>
+                <StringItem index="90" value="INSU-Zavarovalna premija"/>
+                <StringItem index="91" value="INTC-Interno pla&#x10d;ilo"/>
+                <StringItem index="92" value="INTE-Obresti"/>
+                <StringItem index="93" value="INTX-Davek na dobi&#x10d;ek"/>
+                <StringItem index="94" value="INVS-Nalo&#x17e;be &amp; Vrednostni papirji"/>
+                <StringItem index="95" value="IVPT-Pla&#x10d;ilo ra&#x10d;una"/>
+                <StringItem index="96" value="LBRI-Delovno zavarovanje"/>
+                <StringItem index="97" value="LICF-Licen&#x10d;na provizija / licen&#x10d;nina"/>
+                <StringItem index="98" value="LIFI-&#x17d;ivljenjsko zavarovanje"/>
+                <StringItem index="99" value="LIMA-Upravljanje likvidnosti"/>
+                <StringItem index="100" value="LOAN-Posojilo"/>
+                <StringItem index="101" value="LOAR-Odpla&#x10d;ilo posojila"/>
+                <StringItem index="102" value="LTCF-Dolgotrajna zdravstvena oskrba"/>
+                <StringItem index="103" value="MDCS-Zdravstvene storitve"/>
+                <StringItem index="104" value="MSVC-Ve&#x10d;namenske storitve"/>
+                <StringItem index="105" value="MTUP-Polnjenje mobi ra&#x10d;una"/>
+                <StringItem index="106" value="NETT-Neto izravnava"/>
+                <StringItem index="107" value="NITX-Davek na &#x10d;isti dobi&#x10d;ek"/>
+                <StringItem index="108" value="NOWS-Ni opredeljeno drugod."/>
+                <StringItem index="109" value="NWCH-Omre&#x17e;nina"/>
+                <StringItem index="110" value="NWCM-Pla&#x10d;ilo komunikacijskega omre&#x17e;ja"/>
+                <StringItem index="111" value="OFEE-Otvoritvena provizija"/>
+                <StringItem index="112" value="OTHR-Drugo"/>
+                <StringItem index="113" value="OTLC-Drugi ra&#x10d;uni - telekomunikacije"/>
+                <StringItem index="114" value="PADD-Vnaprej odobrena obremenitev"/>
+                <StringItem index="115" value="PAYR-Pla&#x10d;ilna lista"/>
+                <StringItem index="116" value="PENO-Pla&#x10d;ilo po vseh sklepih o izvr&#x161;bah, razen sodnih za pre&#x17e;ivnine"/>
+                <StringItem index="117" value="PENS-Pokojnina"/>
+                <StringItem index="118" value="PHON-Ra&#x10d;un za telefon"/>
+                <StringItem index="119" value="POPE-Vnos / vpis prodajnega mesta"/>
+                <StringItem index="120" value="PPTI-Zavarovanje lastnine"/>
+                <StringItem index="121" value="PRCP-Pla&#x10d;ilo izdatkov"/>
+                <StringItem index="122" value="PRME-Plemenite kovine"/>
+                <StringItem index="123" value="PTSP-Pla&#x10d;ilni pogoji"/>
+                <StringItem index="124" value="PTXP-Davek na premo&#x17e;enje"/>
+                <StringItem index="125" value="RCKE-Pla&#x10d;ilo za ponovno unov&#x10d;itev &#x10d;eka"/>
+                <StringItem index="126" value="RCPT-Pla&#x10d;ilo za izdajo potrdila"/>
+                <StringItem index="127" value="RDTX-Dajatev v cestnem prometu"/>
+                <StringItem index="128" value="REBT-Vra&#x10d;ilo rabata"/>
+                <StringItem index="129" value="REFU-Vra&#x10d;ilo denarnih sredstev"/>
+                <StringItem index="130" value="RENT-Najemnina"/>
+                <StringItem index="131" value="RHBS-Rehabilitacija invalidov"/>
+                <StringItem index="132" value="RINP-Obro&#x10d;na pla&#x10d;ila"/>
+                <StringItem index="133" value="RLWY-&#x17d;elezni&#x161;ki prevoz"/>
+                <StringItem index="134" value="ROYA-Pla&#x10d;ilo iz naslova avtorskih pravic"/>
+                <StringItem index="135" value="SALA-Pla&#x10d;a"/>
+                <StringItem index="136" value="SAVG-Var&#x10d;evanje"/>
+                <StringItem index="137" value="SCVE-Kupoprodaja storitev"/>
+                <StringItem index="138" value="SECU-Vrednostni papirji"/>
+                <StringItem index="139" value="SEPI-Interni nakup vrednostnih papirjev"/>
+                <StringItem index="140" value="SSBE-Socialna podpora"/>
+                <StringItem index="141" value="STDY-&#x160;tudij"/>
+                <StringItem index="142" value="SUBS-Naro&#x10d;nina"/>
+                <StringItem index="143" value="SUPP-Pla&#x10d;ilo dobaviteljem"/>
+                <StringItem index="144" value="TAXR-Vra&#x10d;ilo davka"/>
+                <StringItem index="145" value="TAXS-Pla&#x10d;ilo davkov"/>
+                <StringItem index="146" value="TBIL-Ra&#x10d;un za telekomunikacije"/>
+                <StringItem index="147" value="TCSC-Stro&#x161;ki storitev mestnega sveta"/>
+                <StringItem index="148" value="TELI-Telefonsko izvedena transakcija"/>
+                <StringItem index="149" value="TRAD-Trgovinske storitve"/>
+                <StringItem index="150" value="TREA-Zakladni&#x161;ko pla&#x10d;ilo"/>
+                <StringItem index="151" value="TRFD-Skrbni&#x161;ki sklad"/>
+                <StringItem index="152" value="TRPT-Pla&#x10d;ilo cestnine"/>
+                <StringItem index="153" value="UBIL-Komunala in elektrika"/>
+                <StringItem index="154" value="VATX-Pla&#x10d;ilo davka na dodano vrednost"/>
+                <StringItem index="155" value="VIEW-Oskrba vida"/>
+                <StringItem index="156" value="WEBI-Internetno izvedena transakcija"/>
+                <StringItem index="157" value="WHLD-Davek po odbitku"/>
+                <StringItem index="158" value="WTER-Ra&#x10d;un za vodo / vodarina"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="230" width="630" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel16">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Koda namena"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="210" width="80" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel17">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kraj"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="500" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel18">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Dr&#x17e;ava"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="360" y="500" width="48" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="drzavaPre">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="9b" green="9b" red="ff" type="rgb"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="244">
+                <StringItem index="0" value="Afghanistan"/>
+                <StringItem index="1" value="&#xc5;land Islands"/>
+                <StringItem index="2" value="Albania"/>
+                <StringItem index="3" value="Algeria"/>
+                <StringItem index="4" value="American Samoa"/>
+                <StringItem index="5" value="Andorra"/>
+                <StringItem index="6" value="Angola"/>
+                <StringItem index="7" value="Anguilla"/>
+                <StringItem index="8" value="Antarctica"/>
+                <StringItem index="9" value="Antigua and Barbuda"/>
+                <StringItem index="10" value="Argentina"/>
+                <StringItem index="11" value="Armenia"/>
+                <StringItem index="12" value="Aruba"/>
+                <StringItem index="13" value="Australia"/>
+                <StringItem index="14" value="Austria"/>
+                <StringItem index="15" value="Azerbaijan"/>
+                <StringItem index="16" value="Bahamas"/>
+                <StringItem index="17" value="Bahrain"/>
+                <StringItem index="18" value="Bangladesh"/>
+                <StringItem index="19" value="Barbados"/>
+                <StringItem index="20" value="Belarus"/>
+                <StringItem index="21" value="Belgium"/>
+                <StringItem index="22" value="Belize"/>
+                <StringItem index="23" value="Benin"/>
+                <StringItem index="24" value="Bermuda"/>
+                <StringItem index="25" value="Bhutan"/>
+                <StringItem index="26" value="Bolivia, Plurinational State of"/>
+                <StringItem index="27" value="Bonaire, Sint Eustatius and Saba"/>
+                <StringItem index="28" value="Bosnia and Herzegovina"/>
+                <StringItem index="29" value="Botswana"/>
+                <StringItem index="30" value="Bouvet Island"/>
+                <StringItem index="31" value="Brazil"/>
+                <StringItem index="32" value="British Indian Ocean Territory"/>
+                <StringItem index="33" value="Brunei Darussalam"/>
+                <StringItem index="34" value="Bulgaria"/>
+                <StringItem index="35" value="Burkina Faso"/>
+                <StringItem index="36" value="Burundi"/>
+                <StringItem index="37" value="Cambodia"/>
+                <StringItem index="38" value="Cameroon"/>
+                <StringItem index="39" value="Canada"/>
+                <StringItem index="40" value="Cape Verde"/>
+                <StringItem index="41" value="Cayman Islands"/>
+                <StringItem index="42" value="Central African Republic"/>
+                <StringItem index="43" value="Chad"/>
+                <StringItem index="44" value="Chile"/>
+                <StringItem index="45" value="China"/>
+                <StringItem index="46" value="Christmas Island"/>
+                <StringItem index="47" value="Cocos (Keeling) Islands"/>
+                <StringItem index="48" value="Colombia"/>
+                <StringItem index="49" value="Comoros"/>
+                <StringItem index="50" value="Congo"/>
+                <StringItem index="51" value="Cook Islands"/>
+                <StringItem index="52" value="Costa Rica"/>
+                <StringItem index="53" value="C&#xf4;te d&apos;Ivoire"/>
+                <StringItem index="54" value="Croatia"/>
+                <StringItem index="55" value="Cuba"/>
+                <StringItem index="56" value="Cura&#xe7;ao"/>
+                <StringItem index="57" value="Cyprus"/>
+                <StringItem index="58" value="Czech Republic"/>
+                <StringItem index="59" value="Denmark"/>
+                <StringItem index="60" value="Djibouti"/>
+                <StringItem index="61" value="Dominica"/>
+                <StringItem index="62" value="Dominican Republic"/>
+                <StringItem index="63" value="Ecuador"/>
+                <StringItem index="64" value="Egypt"/>
+                <StringItem index="65" value="El Salvador"/>
+                <StringItem index="66" value="Equatorial Guinea"/>
+                <StringItem index="67" value="Eritrea"/>
+                <StringItem index="68" value="Estonia"/>
+                <StringItem index="69" value="Ethiopia"/>
+                <StringItem index="70" value="Falkland Islands (Malvinas)"/>
+                <StringItem index="71" value="Faroe Islands"/>
+                <StringItem index="72" value="Fiji"/>
+                <StringItem index="73" value="Finland"/>
+                <StringItem index="74" value="France"/>
+                <StringItem index="75" value="French Guiana"/>
+                <StringItem index="76" value="French Polynesia"/>
+                <StringItem index="77" value="French Southern Territories"/>
+                <StringItem index="78" value="Gabon"/>
+                <StringItem index="79" value="Gambia"/>
+                <StringItem index="80" value="Georgia"/>
+                <StringItem index="81" value="Germany"/>
+                <StringItem index="82" value="Ghana"/>
+                <StringItem index="83" value="Gibraltar"/>
+                <StringItem index="84" value="Greece"/>
+                <StringItem index="85" value="Greenland"/>
+                <StringItem index="86" value="Grenada"/>
+                <StringItem index="87" value="Guadeloupe"/>
+                <StringItem index="88" value="Guam"/>
+                <StringItem index="89" value="Guatemala"/>
+                <StringItem index="90" value="Guernsey"/>
+                <StringItem index="91" value="Guinea"/>
+                <StringItem index="92" value="Guinea-Bissau"/>
+                <StringItem index="93" value="Guyana"/>
+                <StringItem index="94" value="Haiti"/>
+                <StringItem index="95" value="Heard Island and McDonald Islands"/>
+                <StringItem index="96" value="Holy See (Vatican City State)"/>
+                <StringItem index="97" value="Honduras"/>
+                <StringItem index="98" value="Hong Kong"/>
+                <StringItem index="99" value="Hungary"/>
+                <StringItem index="100" value="Iceland"/>
+                <StringItem index="101" value="India"/>
+                <StringItem index="102" value="Indonesia"/>
+                <StringItem index="103" value="Iran, Islamic Republic of"/>
+                <StringItem index="104" value="Iraq"/>
+                <StringItem index="105" value="Ireland"/>
+                <StringItem index="106" value="Isle of Man"/>
+                <StringItem index="107" value="Israel"/>
+                <StringItem index="108" value="Italy"/>
+                <StringItem index="109" value="Jamaica"/>
+                <StringItem index="110" value="Japan"/>
+                <StringItem index="111" value="Jersey"/>
+                <StringItem index="112" value="Jordan"/>
+                <StringItem index="113" value="Kazakhstan"/>
+                <StringItem index="114" value="Kenya"/>
+                <StringItem index="115" value="Kiribati"/>
+                <StringItem index="116" value="Korea"/>
+                <StringItem index="117" value="Kuwait"/>
+                <StringItem index="118" value="Kyrgyzstan"/>
+                <StringItem index="119" value="Lao People&apos;s Democratic Republic"/>
+                <StringItem index="120" value="Latvia"/>
+                <StringItem index="121" value="Lebanon"/>
+                <StringItem index="122" value="Lesotho"/>
+                <StringItem index="123" value="Liberia"/>
+                <StringItem index="124" value="Libya"/>
+                <StringItem index="125" value="Liechtenstein"/>
+                <StringItem index="126" value="Lithuania"/>
+                <StringItem index="127" value="Luxembourg"/>
+                <StringItem index="128" value="Macao"/>
+                <StringItem index="129" value="Macedonia"/>
+                <StringItem index="130" value="Madagascar"/>
+                <StringItem index="131" value="Malawi"/>
+                <StringItem index="132" value="Malaysia"/>
+                <StringItem index="133" value="Maldives"/>
+                <StringItem index="134" value="Mali"/>
+                <StringItem index="135" value="Malta"/>
+                <StringItem index="136" value="Marshall Islands"/>
+                <StringItem index="137" value="Martinique"/>
+                <StringItem index="138" value="Mauritania"/>
+                <StringItem index="139" value="Mauritius"/>
+                <StringItem index="140" value="Mayotte"/>
+                <StringItem index="141" value="Mexico"/>
+                <StringItem index="142" value="Micronesia"/>
+                <StringItem index="143" value="Moldova"/>
+                <StringItem index="144" value="Monaco"/>
+                <StringItem index="145" value="Mongolia"/>
+                <StringItem index="146" value="Montenegro"/>
+                <StringItem index="147" value="Montserrat"/>
+                <StringItem index="148" value="Morocco"/>
+                <StringItem index="149" value="Mozambique"/>
+                <StringItem index="150" value="Myanmar"/>
+                <StringItem index="151" value="Namibia"/>
+                <StringItem index="152" value="Nauru"/>
+                <StringItem index="153" value="Nepal"/>
+                <StringItem index="154" value="Netherlands"/>
+                <StringItem index="155" value="New Caledonia"/>
+                <StringItem index="156" value="New Zealand"/>
+                <StringItem index="157" value="Nicaragua"/>
+                <StringItem index="158" value="Niger"/>
+                <StringItem index="159" value="Nigeria"/>
+                <StringItem index="160" value="Niue"/>
+                <StringItem index="161" value="Norfolk Island"/>
+                <StringItem index="162" value="Northern Mariana Islands"/>
+                <StringItem index="163" value="Norway"/>
+                <StringItem index="164" value="Oman"/>
+                <StringItem index="165" value="Pakistan"/>
+                <StringItem index="166" value="Palau"/>
+                <StringItem index="167" value="Palestinian Territory"/>
+                <StringItem index="168" value="Panama"/>
+                <StringItem index="169" value="Papua New Guinea"/>
+                <StringItem index="170" value="Paraguay"/>
+                <StringItem index="171" value="Peru"/>
+                <StringItem index="172" value="Philippines"/>
+                <StringItem index="173" value="Pitcairn"/>
+                <StringItem index="174" value="Poland"/>
+                <StringItem index="175" value="Portugal"/>
+                <StringItem index="176" value="Puerto Rico"/>
+                <StringItem index="177" value="Qatar"/>
+                <StringItem index="178" value="R&#xe9;union"/>
+                <StringItem index="179" value="Romania"/>
+                <StringItem index="180" value="Russian Federation"/>
+                <StringItem index="181" value="Rwanda"/>
+                <StringItem index="182" value="Saint Barth&#xe9;lemy"/>
+                <StringItem index="183" value="Saint Helena"/>
+                <StringItem index="184" value="Saint Kitts and Nevis"/>
+                <StringItem index="185" value="Saint Lucia"/>
+                <StringItem index="186" value="Saint Martin (French part)"/>
+                <StringItem index="187" value="Saint Pierre and Miquelon"/>
+                <StringItem index="188" value="Saint Vincent and the Grenadines"/>
+                <StringItem index="189" value="Samoa"/>
+                <StringItem index="190" value="San Marino"/>
+                <StringItem index="191" value="Sao Tome and Principe"/>
+                <StringItem index="192" value="Saudi Arabia"/>
+                <StringItem index="193" value="Senegal"/>
+                <StringItem index="194" value="Serbia"/>
+                <StringItem index="195" value="Seychelles"/>
+                <StringItem index="196" value="Sierra Leone"/>
+                <StringItem index="197" value="Singapore"/>
+                <StringItem index="198" value="Sint Maarten (Dutch part)"/>
+                <StringItem index="199" value="Slovakia"/>
+                <StringItem index="200" value="Slovenia"/>
+                <StringItem index="201" value="Solomon Islands"/>
+                <StringItem index="202" value="Somalia"/>
+                <StringItem index="203" value="South Africa"/>
+                <StringItem index="204" value="South Georgia and the South Sandwich Islands"/>
+                <StringItem index="205" value="South Sudan"/>
+                <StringItem index="206" value="Spain"/>
+                <StringItem index="207" value="Sri Lanka"/>
+                <StringItem index="208" value="Sudan"/>
+                <StringItem index="209" value="Suriname"/>
+                <StringItem index="210" value="Svalbard and Jan Mayen"/>
+                <StringItem index="211" value="Swaziland"/>
+                <StringItem index="212" value="Sweden"/>
+                <StringItem index="213" value="Switzerland"/>
+                <StringItem index="214" value="Syrian Arab Republic"/>
+                <StringItem index="215" value="Taiwan, Province of China"/>
+                <StringItem index="216" value="Tajikistan"/>
+                <StringItem index="217" value="Tanzania"/>
+                <StringItem index="218" value="Timor-Leste"/>
+                <StringItem index="219" value="Togo"/>
+                <StringItem index="220" value="Tokelau"/>
+                <StringItem index="221" value="Tonga"/>
+                <StringItem index="222" value="Trinidad and Tobago"/>
+                <StringItem index="223" value="Tunisia"/>
+                <StringItem index="224" value="Turkey"/>
+                <StringItem index="225" value="Turkmenistan"/>
+                <StringItem index="226" value="Turks and Caicos Islands"/>
+                <StringItem index="227" value="Tuvalu"/>
+                <StringItem index="228" value="Uganda"/>
+                <StringItem index="229" value="Ukraine"/>
+                <StringItem index="230" value="United Arab Emirates"/>
+                <StringItem index="231" value="United Kingdom"/>
+                <StringItem index="232" value="United States"/>
+                <StringItem index="233" value="United States Minor Outlying Islands"/>
+                <StringItem index="234" value="Uruguay"/>
+                <StringItem index="235" value="Uzbekistan"/>
+                <StringItem index="236" value="Vanuatu"/>
+                <StringItem index="237" value="Venezuela"/>
+                <StringItem index="238" value="Virgin Islands"/>
+                <StringItem index="239" value="Wallis and Futuna"/>
+                <StringItem index="240" value="Western Sahara"/>
+                <StringItem index="241" value="Yemen"/>
+                <StringItem index="242" value="Zambia"/>
+                <StringItem index="243" value="Zimbabwe"/>
+              </StringArray>
+            </Property>
+            <Property name="selectedIndex" type="int" value="200"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="360" y="520" width="360" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel19">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="BIC banke prejemnika"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="500" y="310" width="130" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel20">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="EUR"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="230" y="330" width="40" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel21">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="IBAN"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="350" width="48" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel22">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="UPN - Univerzalni pla&#x10d;ilni nalog"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="430" y="420" width="220" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Potrdi"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="300" y="560" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nazaj"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="380" y="560" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
